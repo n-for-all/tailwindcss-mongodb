@@ -9,7 +9,6 @@ module.exports = {
 		".safelist",
         //...
 	],
-	//...
 	plugins: [
 		require("tailwindcss-mongodb")({
                 callback: async (client) => {
