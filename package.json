@@ -1,24 +1,36 @@
 {
-  "name": "tailwindcss-mongodb",
-  "version": "1.0.0",
-  "description": "Tailwind Css Plugin for mongodb",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/n-for-all/tailwindcss-mongodb.git"
-  },
-  "keywords": [
-    "Tailwind",
-    "css",
-    "mongodb"
-  ],
-  "author": "Naji Amer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/n-for-all/tailwindcss-mongodb/issues"
-  },
-  "homepage": "https://github.com/n-for-all/tailwindcss-mongodb#readme"
+	"name": "tailwindcss-mongodb",
+	"version": "0.0.1",
+	"description": "Tailwind Css Plugin for mongodb",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/n-for-all/tailwindcss-mongodb.git"
+	},
+	"keywords": [
+		"Tailwind",
+		"css",
+		"mongodb"
+	],
+	"prettier": {
+		"printWidth": 100,
+		"semi": false,
+		"singleQuote": true,
+		"trailingComma": "es5"
+	},
+	"peerDependencies": {
+		"tailwindcss": ">=3.0.0"
+	},
+	"author": "Naji Amer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/n-for-all/tailwindcss-mongodb/issues"
+	},
+	"homepage": "https://github.com/n-for-all/tailwindcss-mongodb#readme",
+	"dependencies": {
+		"mongodb": "^4.11.0"
+	}
 }
