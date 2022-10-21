@@ -14,7 +14,9 @@ module.exports = {
 		require("tailwindcss-mongodb")({
             callback: async (client) => {
                 // return an array of strings (classnames)
-                return ["md-1", "text-white/70" ...];
+                return [
+                    "md-1", "text-white/70" //...
+                ];
             }, 
 
             // Path to save the safelist file, the same must be added in the content so that tailwind can parse the file
