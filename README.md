@@ -18,10 +18,8 @@ module.exports = {
                     "md-1", "text-white/70" //...
                 ];
             }, 
-
             // Path to save the safelist file, the same must be added in the content so that tailwind can parse the file
             path: ".safelist",
-
             // Mongodb connection string
 			uri: "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority",
 		})
