@@ -4,6 +4,7 @@ Retreive css classes from the database and add them to safelist so that tailwind
 ## Basic Usage
 Add the plugin and the path to the safelist file in `tailwind.config.js`
 ```js
+const tailwindcssMongodb = require("tailwindcss-mongodb");
 module.exports = {
     content: [
 		".safelist",
@@ -11,7 +12,7 @@ module.exports = {
 	],
 	//...
 	plugins: [
-		require("tailwindcss-mongodb")({
+		tailwindcssMongodb({
             callback: async (client) => {
                 // return an array of strings (classnames)
                 return [
