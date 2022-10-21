@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-mongodb",
+  "version": "1.0.0",
+  "description": "Tailwind Css Plugin for mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-for-all/tailwindcss-mongodb.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "css",
+    "mongodb"
+  ],
+  "author": "Naji Amer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n-for-all/tailwindcss-mongodb/issues"
+  },
+  "homepage": "https://github.com/n-for-all/tailwindcss-mongodb#readme"
+}
