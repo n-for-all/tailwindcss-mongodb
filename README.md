@@ -64,10 +64,10 @@ const flatten = require("flat")
 
 module.exports = {
     content: [
-		".safelist",
-	],
-	plugins: [
-		require("tailwindcss-mongodb")({
+        ".safelist",
+    ],
+    plugins: [
+        require("tailwindcss-mongodb")({
             callback: async (client) => {
                 const db = client.db("test");
                 const collection = db.collection("page");
@@ -85,8 +85,8 @@ module.exports = {
                 return classes.filter((cls, index, cls_array) => cls_array.indexOf(cls) === index);
             }, 
             path: ".safelist",
-			uri: "mongodb://localhost:27017",
-		})
-	]
+            uri: "mongodb://localhost:27017",
+        })
+    ]
 };
 ```
