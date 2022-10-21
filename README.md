@@ -6,8 +6,7 @@ Add the plugin and the path to the safelist file in `tailwind.config.js`
 ```js
 module.exports = {
     content: [
-		".safelist",
-        //...
+		".safelist"
 	],
 	plugins: [
 		require("tailwindcss-mongodb")({
