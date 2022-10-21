@@ -6,22 +6,22 @@ Add the plugin and the path to the safelist file in `tailwind.config.js`
 ```js
 module.exports = {
     content: [
-		".safelist"
-	],
-	plugins: [
-		require("tailwindcss-mongodb")({
-                callback: async (client) => {
-                    // return an array of strings (classnames)
-                    return [
-                        "md-1", "text-white/70" //...
-                    ];
-                }, 
-                // Path to save the safelist file, the same must be added in the content so that tailwind can parse the file
-                path: ".safelist",
-                // Mongodb connection string
-                uri: "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority",
-		})
-	]
+        ".safelist"
+    ],
+    plugins: [
+        require("tailwindcss-mongodb")({
+        callback: async (client) => {
+            // return an array of strings (classnames)
+            return [
+            "md-1", "text-white/70" //...
+            ];
+        }, 
+        // Path to save the safelist file, the same must be added in the content so that tailwind can parse the file
+        path: ".safelist",
+        // Mongodb connection string
+        uri: "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority",
+        })
+    ]
 };
 ```
 
