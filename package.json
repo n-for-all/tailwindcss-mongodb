@@ -1,6 +1,6 @@
 {
 	"name": "tailwindcss-mongodb",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Tailwind Css Plugin for mongodb",
 	"main": "index.js",
 	"scripts": {
